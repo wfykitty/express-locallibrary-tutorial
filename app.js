@@ -9,7 +9,6 @@ var usersRouter = require('./routes/users');
 var catalogRouter = require('./routes/catalog');  //Import routes for "catalog" area of site
 
 //after add helmet
-var compression = require('compression');
 var helmet = require('helmet');
 
 // Create the Express application object
